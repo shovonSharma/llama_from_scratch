@@ -568,13 +568,3 @@ if __name__ == "__main__":
     num_params = sum(p.numel() for p in model.parameters())
     print(f"Number of parameters: {num_params/1e6:.2f}M")
     
-    # Load and prepare dataset
-    # This is a placeholder - you'd need to provide actual data
-    # data = {'train': train_data, 'val': val_data}
-    
-    # Train the model
-    # train_losses, val_losses = train_model(model, data, args)
-    
-    # Example generation
-    # generated_text = generate_text(model, tokenizer, "Once upon a time")
-    # print(generated_text)
